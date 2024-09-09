@@ -37,10 +37,10 @@
       justify-content:center;
       align-items: center;
       border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
-      box-shadow: 1px 1px 15px orange;
+      box-shadow: 0.7px 0.7px 5px #078ef5;
       box-sizing: border-box;
       z-index: 1;
-      border:1px solid orange;
+      border:1px solid #078ef5;
   }
   .search input{
       width: 90px;
@@ -89,17 +89,16 @@
   li a:hover:not(.active) {
     background-color:whitesmoke;
   }
-  
-  .active {
-    background-color: orange;
-  } 
 
+/*about*/
 #about {
     max-width: 600px;
     margin-inline: auto;
     text-align:justify;
     line-height: 1.75rem;
   }
+
+/*social*/
 .social a{
     color:#4fbdd6;
 }
@@ -110,28 +109,32 @@
     color: rgb(37, 123, 184);
 }
 
+/*Download CV*/
 .resume{
     text-decoration: none;
     margin: 30px;
     font-size:16px;
     font-family: serif;
 }
+
+/*services*/
 #services .b-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     text-align: center;
 }
+
 #services .s-box {
     display: block;
-    width: 31%;
+    width:30%;
     margin-bottom: 2rem;
     max-width: none;
-    background-color: whitesmoke;
-    border: 0.2px ridge rgb(82, 81, 81);
-    border-radius: 10%;
-    
+    background-color:#f2f7fa;
+    border: 0.2px solid #fafcfa;
+    border-radius:7%;  
   }
+
   #services .s-type {
     text-align: center;
     margin-bottom: 0.5rem;
@@ -139,8 +142,10 @@
     padding-left: 0;
     max-width: none;
     color: #0c0a07;
-    
+    font-weight:bolder;
+    font-size:20px;
   }
+
   #services .s-b-img {
     display: block;
     margin-left: auto;
@@ -152,7 +157,7 @@
     height: auto;
   }
   #services .s-b-text {
-    text-align: center;
+    text-align:center;
     margin-bottom: 1rem;
     margin-left: 0;
     padding-left: 0;
@@ -163,7 +168,7 @@
     text-decoration: none;
   }
   .s-heading{
-    font-size: 20px;
+    font-size: 16px;
     color: #100c03;
   }
 
@@ -171,7 +176,7 @@
   /* Portfolio Section Styles */
 
 #portfolio {
-    background-color: #f7f7f7; /* light gray background */
+    background-color:#f2f7fa; 
     padding: 50px;
   }
   
@@ -189,7 +194,7 @@
   }
   
   .p-box {
-    width: 30%; /* adjust the width to your liking */
+    width: 30%; 
     margin: 20px;
     position: relative;
   }
@@ -227,12 +232,13 @@
     transition: opacity 0.5s;
   }
 
+
 .source-code-link {
   text-align: center; 
 }
 
 .source-code-btn {
-  background-color: #4CAF50; 
+  background-color:#4287f5;
   color: #fff;
   padding: 10px 20px; 
   border: none; 
@@ -252,16 +258,15 @@
   transform: translateY(2px); 
 }
 
-
 /* Contact Button Section */
 #contact-btn{
     text-align: center;
-    background-color: #c5d7eb; 
+    background-color: #e6eef5 ; 
     line-height: 2.5rem;
     padding-bottom:10px ;
 }
- button {
-    background-color: #edf1f2;
+ button{
+    background-color:#f0f8fa;
     color: #13111c;
     border: none;
     padding: 10px 20px;
@@ -271,12 +276,12 @@
   }
   
   button:hover {
-    background-color: #bf93fa;
+    background-color:#82e66c;
   }
 #contact-form{
    padding-top: 10px;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #f2f7fa;
 } 
 
 .f-name input, .f-email input {
@@ -297,15 +302,16 @@
     color: rgb(30, 28, 28);
     padding: 20px;
     text-align: center;
-    clear: both; /* make sure footer is below all other elements */
+    clear: both; 
   }
   
   .footer-container {
-    max-width: 800px; /* adjust width to your liking */
-    margin: 0 auto; /* center container */
+    max-width: 800px; 
+    margin: 0 auto; 
     padding: 20px;
   }
 
+  /*back-to-top*/
   #back-to-top {
     position: fixed;
     bottom: 20px;
