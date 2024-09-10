@@ -195,6 +195,7 @@
   
   .p-box {
     width: 30%; 
+    height:50%;
     margin: 20px;
     position: relative;
   }
